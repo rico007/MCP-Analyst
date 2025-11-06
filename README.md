@@ -41,6 +41,15 @@ cd mcp-data-analyst
 # Start the container
 ./docker-start.sh
 
+# Falls das File nicht ausführbar ist. führe im Terminal folgenden Befehl aus:
+
+chmod +x docker-start.sh
+
+# Danach starte es erneut:
+
+./docker-start.sh 
+
+
 # Follow the instructions to configure Claude/ChatGPT
 ```
 
