@@ -8,7 +8,7 @@ import os
 from typing import Optional
 import duckdb
 import pandas as pd
-from mcp import FastMCP
+from fastmcp import FastMCP
 
 # Initialize FastMCP server
 mcp = FastMCP("data-analyst-mcp")
